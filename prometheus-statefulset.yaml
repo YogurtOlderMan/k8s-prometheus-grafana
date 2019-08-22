@@ -98,7 +98,7 @@ spec:
         - name: prometheus-data
           nfs:
             path: /data
-            server: 172.18.248.181
+            server: 你的nfs地址
 #  volumeClaimTemplates:
 #  - metadata:
 #      name: prometheus-data
