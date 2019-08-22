@@ -72,5 +72,8 @@ spec:
           configMap:
             name: alertmanager-config
         - name: storage-volume
-          persistentVolumeClaim:
-            claimName: alertmanager
+          nfs:
+            path: 挂载路径
+            server: 你的nfs地址
+         # persistentVolumeClaim:
+         #   claimName: alertmanager
